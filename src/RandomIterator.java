@@ -2,7 +2,7 @@ import java.util.Iterator;
 
 public class RandomIterator extends Randoms implements Iterator<Integer> {
 
-    public RandomIterator(int min, int max) {
+    protected RandomIterator(int min, int max) {
         super(min, max);
     }
 
